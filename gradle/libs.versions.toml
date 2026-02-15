@@ -8,7 +8,7 @@ spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-start
 spring-boot-starter-jdbc = { module = "org.springframework.boot:spring-boot-starter-jdbc" }
 spring-ai-starter-mcp-server-webmvc = { module = "org.springframework.ai:spring-ai-starter-mcp-server-webmvc" }
 mcp-annotations = { module = "org.springaicommunity:mcp-annotations", version = "0.8.0" }
-mysql-connector-j = { module = "com.mysql:mysql-connector-j" }
+h2 = { module = "com.h2database:h2" }
 
 spring-ai-bom = { module = "org.springframework.ai:spring-ai-bom", version.ref = "springAi" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test" }

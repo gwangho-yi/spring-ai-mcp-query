@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew bootRun:*)",
+      "Bash(curl:*)",
+      "Bash(jar tf:*)",
+      "Bash(jar xf:*)",
+      "Bash(find:*)",
+      "Bash(javap:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}

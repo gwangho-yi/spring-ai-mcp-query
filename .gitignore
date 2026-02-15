@@ -25,3 +25,5 @@ Thumbs.db
 
 # Local config (uncomment if you put real credentials in application-local.yml)
 # src/main/resources/application-local.yml
+
+.omc/

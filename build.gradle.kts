@@ -30,7 +30,7 @@ dependencies {
     implementation(libs.spring.boot.starter.jdbc)
     implementation(libs.spring.ai.starter.mcp.server.webmvc)
     implementation(libs.mcp.annotations)
-    runtimeOnly(libs.mysql.connector.j)
+    runtimeOnly(libs.h2)
 
     testImplementation(libs.spring.boot.starter.test)
 }
