@@ -1,0 +1,17 @@
+spring:
+  ai:
+    mcp:
+      server:
+        enabled: true
+        protocol: stateless
+        annotation-scanner:
+          enabled: true
+        name: mcp-query-server
+        version: 1.0.0
+        type: SYNC
+        capabilities:
+          tool: true
+          resource: false
+          prompt: false
+          completion: false
+        sse-message-endpoint: /mcp/messages
